@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADB2053025D0419500C98338 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2052F25D0419500C98338 /* CoverImageView.swift */; };
 		ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4053D25C73DA4003E3671 /* VideoListView.swift */; };
 		ADC4054125C73DB8003E3671 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4054025C73DB8003E3671 /* MapView.swift */; };
 		ADC4054425C73DCC003E3671 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4054325C73DCC003E3671 /* GalleryView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADB2052F25D0419500C98338 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		ADC4053D25C73DA4003E3671 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		ADC4054025C73DB8003E3671 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		ADC4054325C73DCC003E3671 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADB2052E25D0417F00C98338 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2052F25D0419500C98338 /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ADC4053B25C73D47003E3671 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +111,10 @@
 		ADCD265625C5D42C00004846 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2052E25D0417F00C98338 /* View */,
+				ADC4053B25C73D47003E3671 /* App */,
 				ADCD267D25C5D6C100004846 /* Data */,
 				ADCD266725C5D67200004846 /* Video */,
-				ADC4053B25C73D47003E3671 /* App */,
 				ADCD265B25C5D43000004846 /* Assets.xcassets */,
 				ADCD266025C5D43000004846 /* Info.plist */,
 				ADCD265D25C5D43000004846 /* Preview Content */,
@@ -232,6 +243,7 @@
 			files = (
 				ADCD265A25C5D42C00004846 /* ContentView.swift in Sources */,
 				ADC4054725C73DDB003E3671 /* MainView.swift in Sources */,
+				ADB2053025D0419500C98338 /* CoverImageView.swift in Sources */,
 				ADC4054125C73DB8003E3671 /* MapView.swift in Sources */,
 				ADCD265825C5D42C00004846 /* AfricaApp.swift in Sources */,
 				ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */,
