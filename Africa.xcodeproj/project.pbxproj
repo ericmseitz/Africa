@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4053D25C73DA4003E3671 /* VideoListView.swift */; };
+		ADC4054125C73DB8003E3671 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4054025C73DB8003E3671 /* MapView.swift */; };
+		ADC4054425C73DCC003E3671 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4054325C73DCC003E3671 /* GalleryView.swift */; };
+		ADC4054725C73DDB003E3671 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4054625C73DDB003E3671 /* MainView.swift */; };
 		ADCD265825C5D42C00004846 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD265725C5D42C00004846 /* AfricaApp.swift */; };
 		ADCD265A25C5D42C00004846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD265925C5D42C00004846 /* ContentView.swift */; };
 		ADCD265C25C5D43000004846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCD265B25C5D43000004846 /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADC4053D25C73DA4003E3671 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		ADC4054025C73DB8003E3671 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ADC4054325C73DCC003E3671 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		ADC4054625C73DDB003E3671 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		ADCD265425C5D42C00004846 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCD265725C5D42C00004846 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		ADCD265925C5D42C00004846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADC4053B25C73D47003E3671 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADCD265725C5D42C00004846 /* AfricaApp.swift */,
+				ADCD265925C5D42C00004846 /* ContentView.swift */,
+				ADC4053D25C73DA4003E3671 /* VideoListView.swift */,
+				ADC4054025C73DB8003E3671 /* MapView.swift */,
+				ADC4054325C73DCC003E3671 /* GalleryView.swift */,
+				ADC4054625C73DDB003E3671 /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		ADCD264B25C5D42C00004846 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +103,7 @@
 			children = (
 				ADCD267D25C5D6C100004846 /* Data */,
 				ADCD266725C5D67200004846 /* Video */,
-				ADCD265725C5D42C00004846 /* AfricaApp.swift */,
-				ADCD265925C5D42C00004846 /* ContentView.swift */,
+				ADC4053B25C73D47003E3671 /* App */,
 				ADCD265B25C5D43000004846 /* Assets.xcassets */,
 				ADCD266025C5D43000004846 /* Info.plist */,
 				ADCD265D25C5D43000004846 /* Preview Content */,
@@ -211,7 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCD265A25C5D42C00004846 /* ContentView.swift in Sources */,
+				ADC4054725C73DDB003E3671 /* MainView.swift in Sources */,
+				ADC4054125C73DB8003E3671 /* MapView.swift in Sources */,
 				ADCD265825C5D42C00004846 /* AfricaApp.swift in Sources */,
+				ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */,
+				ADC4054425C73DCC003E3671 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
