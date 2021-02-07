@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADA99ED025D084DE0044EA2D /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA99ECF25D084DE0044EA2D /* CoverImageModel.swift */; };
 		ADB2053025D0419500C98338 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2052F25D0419500C98338 /* CoverImageView.swift */; };
 		ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4053D25C73DA4003E3671 /* VideoListView.swift */; };
 		ADC4054125C73DB8003E3671 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4054025C73DB8003E3671 /* MapView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADA99ECF25D084DE0044EA2D /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		ADB2052F25D0419500C98338 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		ADC4053D25C73DA4003E3671 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		ADC4054025C73DB8003E3671 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADA99ECE25D084B90044EA2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADA99ECF25D084DE0044EA2D /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ADB2052E25D0417F00C98338 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		ADCD265625C5D42C00004846 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				ADA99ECE25D084B90044EA2D /* Model */,
 				ADB2052E25D0417F00C98338 /* View */,
 				ADC4053B25C73D47003E3671 /* App */,
 				ADCD267D25C5D6C100004846 /* Data */,
@@ -244,6 +255,7 @@
 				ADCD265A25C5D42C00004846 /* ContentView.swift in Sources */,
 				ADC4054725C73DDB003E3671 /* MainView.swift in Sources */,
 				ADB2053025D0419500C98338 /* CoverImageView.swift in Sources */,
+				ADA99ED025D084DE0044EA2D /* CoverImageModel.swift in Sources */,
 				ADC4054125C73DB8003E3671 /* MapView.swift in Sources */,
 				ADCD265825C5D42C00004846 /* AfricaApp.swift in Sources */,
 				ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */,
