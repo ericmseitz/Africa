@@ -37,6 +37,7 @@
 		ADCD268525C5D6DE00004846 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = ADCD268125C5D6DE00004846 /* videos.json */; };
 		ADF7FCCC25F1748D0049D536 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCCB25F1748D0049D536 /* HeadingView.swift */; };
 		ADF7FCCF25F176EE0049D536 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCCE25F176EE0049D536 /* InsetGalleryView.swift */; };
+		ADF7FCD225F180480049D536 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCD125F180480049D536 /* InsetFactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		ADCD268125C5D6DE00004846 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		ADF7FCCB25F1748D0049D536 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		ADF7FCCE25F176EE0049D536 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		ADF7FCD125F180480049D536 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				AD525D3825DB423500B00A13 /* AnimalDetailView.swift */,
 				ADF7FCCB25F1748D0049D536 /* HeadingView.swift */,
 				ADF7FCCE25F176EE0049D536 /* InsetGalleryView.swift */,
+				ADF7FCD125F180480049D536 /* InsetFactView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				ADCD265A25C5D42C00004846 /* ContentView.swift in Sources */,
 				AD65123925D19FA10039104B /* AnimalListItemView.swift in Sources */,
 				ADC4054725C73DDB003E3671 /* MainView.swift in Sources */,
+				ADF7FCD225F180480049D536 /* InsetFactView.swift in Sources */,
 				ADB2053025D0419500C98338 /* CoverImageView.swift in Sources */,
 				ADA99ED025D084DE0044EA2D /* CoverImageModel.swift in Sources */,
 				AD525D3925DB423500B00A13 /* AnimalDetailView.swift in Sources */,
