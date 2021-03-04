@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD525D3925DB423500B00A13 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD525D3825DB423500B00A13 /* AnimalDetailView.swift */; };
 		AD65123925D19FA10039104B /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65123825D19FA10039104B /* AnimalListItemView.swift */; };
 		AD65123D25D1A22A0039104B /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65123C25D1A22A0039104B /* AnimalModel.swift */; };
 		ADA99ED025D084DE0044EA2D /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA99ECF25D084DE0044EA2D /* CoverImageModel.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD525D3825DB423500B00A13 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		AD65123825D19FA10039104B /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		AD65123C25D1A22A0039104B /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		ADA99ECF25D084DE0044EA2D /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				ADB2052F25D0419500C98338 /* CoverImageView.swift */,
 				AD65123825D19FA10039104B /* AnimalListItemView.swift */,
+				AD525D3825DB423500B00A13 /* AnimalDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				ADC4054725C73DDB003E3671 /* MainView.swift in Sources */,
 				ADB2053025D0419500C98338 /* CoverImageView.swift in Sources */,
 				ADA99ED025D084DE0044EA2D /* CoverImageModel.swift in Sources */,
+				AD525D3925DB423500B00A13 /* AnimalDetailView.swift in Sources */,
 				AD65123D25D1A22A0039104B /* AnimalModel.swift in Sources */,
 				ADC4054125C73DB8003E3671 /* MapView.swift in Sources */,
 				ADCD265825C5D42C00004846 /* AfricaApp.swift in Sources */,
