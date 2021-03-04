@@ -38,6 +38,7 @@
 		ADF7FCCC25F1748D0049D536 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCCB25F1748D0049D536 /* HeadingView.swift */; };
 		ADF7FCCF25F176EE0049D536 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCCE25F176EE0049D536 /* InsetGalleryView.swift */; };
 		ADF7FCD225F180480049D536 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCD125F180480049D536 /* InsetFactView.swift */; };
+		ADF7FCD525F184E80049D536 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7FCD425F184E80049D536 /* InsetMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		ADF7FCCB25F1748D0049D536 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		ADF7FCCE25F176EE0049D536 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		ADF7FCD125F180480049D536 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		ADF7FCD425F184E80049D536 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				ADF7FCCB25F1748D0049D536 /* HeadingView.swift */,
 				ADF7FCCE25F176EE0049D536 /* InsetGalleryView.swift */,
 				ADF7FCD125F180480049D536 /* InsetFactView.swift */,
+				ADF7FCD425F184E80049D536 /* InsetMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				AD525D3925DB423500B00A13 /* AnimalDetailView.swift in Sources */,
 				AD65123D25D1A22A0039104B /* AnimalModel.swift in Sources */,
 				ADC4054125C73DB8003E3671 /* MapView.swift in Sources */,
+				ADF7FCD525F184E80049D536 /* InsetMapView.swift in Sources */,
 				ADCD265825C5D42C00004846 /* AfricaApp.swift in Sources */,
 				ADC4053E25C73DA4003E3671 /* VideoListView.swift in Sources */,
 				ADC4054425C73DCC003E3671 /* GalleryView.swift in Sources */,
